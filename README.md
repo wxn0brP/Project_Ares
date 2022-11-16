@@ -1,5 +1,5 @@
 # Project_Ares
-Repozytorum Project Ares
+Repozytorum Project Ares (Premiera 27.11.2022r)
 
 Strona Projektu: https://meojemoje.tk/Project-Ares/
 
