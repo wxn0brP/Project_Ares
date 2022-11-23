@@ -11,3 +11,4 @@ Strona Projektu: https://meojemoje.tk/Project_Ares/
 ## Osoby które dołożyły swoją cegiełkę
 * @Kierownik123
 * @Siege908
+* maxsiu434
