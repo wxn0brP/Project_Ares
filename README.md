@@ -9,5 +9,5 @@ Strona Projektu: https://meojemoje.tk/Project_Ares/
 @wxn0brP
 
 ## Osoby które dołożyły swoją cegiełkę
-@Kierownik123
-@Siege908
+* @Kierownik123
+* @Siege908
