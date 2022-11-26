@@ -1,7 +1,7 @@
 # Project_Ares
 Repozytorum Project Ares 
 
-Oflicjala premiera projektu 24.11.2023r
+Oflicjala premiera projektu 24.11.2023r 19:00 UTC+1
 
 ***
 
