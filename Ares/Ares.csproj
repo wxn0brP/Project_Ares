@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>logo64.ico</ApplicationIcon>
+    <NoWarn>SYSLIB0014,CS8600,CS8981,CS8625,CS8602,CS8622,CS8604,CS8618,CS0162,CS0164</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jint" Version="2.11.58" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Speech" Version="7.0.0" />
+    <PackageReference Include="System.Management" Version="7.0.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <!-- <ProjectReference Include="..\modules\kd\kd.csproj" /> -->
+    <!-- <ProjectReference Include="D:\projekty\hik\hik\hik.csproj" /> -->
+  </ItemGroup>
+
+</Project>
