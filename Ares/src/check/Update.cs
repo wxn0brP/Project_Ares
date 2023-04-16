@@ -22,7 +22,9 @@ public class UpdateC{
 				InstallC.InstallForm();
 				return false;
 			}
-			CheckFiles();
+            try{
+			    CheckFiles();
+            }catch{}
 			return true;
 		}catch(Exception e){
 			ErrorC.InfDev(e.ToString(), "check Install Ares");
