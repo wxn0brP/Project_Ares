@@ -125,14 +125,18 @@ public partial class Ares : Form{
 	}
 
     public static void SpecialLogoInEvent(ref PictureBox lo){
-        string act = NetC.DownloadString(ConfigData.url+"Ares/evtLogo.txt");
-        if(act == ""){
+        try{
+            string act = NetC.DownloadString(ConfigData.url+"Ares/evtLogo.txt");
+            if(act == ""){
+                lo.ImageLocation = "logo64.ico";
+                return;
+            }
+            if(!File.Exists("logo/"+act+".ico")){
+                NetC.DownloadFile(ConfigData.url+"Ares/logo/"+act+".ico", "logo/"+act+".ico");
+            }
+            lo.ImageLocation = "logo/"+act+".ico";
+        }catch{
             lo.ImageLocation = "logo64.ico";
-            return;
         }
-        if(!File.Exists("logo/"+act+".ico")){
-            NetC.DownloadFile(ConfigData.url+"Ares/logo/"+act+".ico", "logo/"+act+".ico");
-        }
-        lo.ImageLocation = "logo/"+act+".ico";
     }
 }
