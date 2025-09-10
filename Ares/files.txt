@@ -1,0 +1,2 @@
+logo.ico
+logo64.ico
