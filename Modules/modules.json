@@ -1,27 +1,34 @@
-{"modules": [
 {
-    "name": "kd", "v": "0.1.7", "jest": "true", "mod": "false"
-},
-{
-    "name": "av", "v": "0.1.5", "jest": "true", "mod": "false"
-},
-{
-    "name": "sysLiczbowe", "v": "0.1.3", "jest": "true", "mod": "false"
-},
-{
-    "name": "parot", "v": "0.1.0", "jest": "true", "mod": "false"
-},
-{
-    "name": "czat","v": "0.1.3", "jest": "false",  "mod": "false"
-},
-{
-    "name": "kalkulator", "v": "0.1.2", "jest": "true", "mod": "false"
-},
-{
-    "name": "TMowi", "v": "0.1.1", "jest": "true", "mod": "false"
-},
-{
-    "name": "md", "v": "0.1.0", "jest": "false", "mod": "false"
-}
-]
+    "modules": [
+        {
+            "name": "kd",
+            "v": "0.2",
+            "jest": "true",
+            "mod": "false"
+        },
+        {
+            "name": "av",
+            "v": "0.2",
+            "jest": "true",
+            "mod": "false"
+        },
+        {
+            "name": "sysLiczbowe",
+            "v": "0.2",
+            "jest": "true",
+            "mod": "false"
+        },
+        {
+            "name": "kalkulator",
+            "v": "0.2.3.1",
+            "jest": "true",
+            "mod": "false"
+        },
+        {
+            "name": "sysLiczbowe",
+            "v": "0.2",
+            "jest": "true",
+            "mod": "false"
+        }
+    ]
 }
