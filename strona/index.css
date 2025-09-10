@@ -1,0 +1,127 @@
+:root{
+    --card: #2a2a2a;
+    --cardW: #a3a3a3;
+    --cardB: #2a2a2a;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+#logo{
+    display: none;
+}
+
+#ProjAres{
+    font-size: 100px;
+}
+
+#ProjApp{
+    font-size: 50px;
+}
+
+#Premiera{
+    font-size: 20px;
+}
+
+#contener_col{
+    margin-bottom: 40px;
+}
+
+#col_first{
+    height: 620px;
+    margin-bottom: 20px;
+}
+
+#col_sencond{
+    margin-top: 20px;
+    height: 2660px;
+}
+
+.column_first{
+    float: left;
+    height: 300px;
+    width: 33%;
+}
+
+.column_second{
+    float: left;
+    height: 400px;
+    width: calc(50% - 1px);
+    margin: 20px 0;
+    padding-top: -10px;
+}
+
+.card{
+    width: 80%;
+    background-color: var(--card);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    height: 230px;
+    padding: 10px 0;
+    animation: card_run 3s;
+}
+
+@keyframes card_run{
+    0%{
+        opacity: 0;
+        transform: translateX(-400%);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.zalety{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.zaletyM{
+    margin-top: 15px;
+    font-size: 20px;
+    max-width: 80%;
+}
+
+.clip{
+    background-color: red;
+    aspect-ratio: 1;
+    width: 50px;
+    height: 50px;
+}
+
+.clip-obr{
+    width: 250px;
+    height: 250px;
+}
+
+#tarcza{
+    clip-path: polygon(50% 24%, 86% 14%, 82% 66%, 50% 88%, 17% 65%, 13% 12%);
+}
+
+#diamoud{
+    clip-path: polygon(30% 0, 70% 0, 100% 18%, 50% 100%, 0 18%);
+}
+
+#check-mark{
+    clip-path: polygon(42% 74%, 84% 0, 100% 8%, 79% 46%, 49% 100%, 23% 84%, 0 70%, 8% 53%);
+}
+
+#light{
+    clip-path: polygon(65% 0, 53% 24%, 85% 24%, 28% 100%, 45% 45%, 15% 45%, 35% 0);
+}
+
+#up_arrow{
+    clip-path: polygon(30% 40%, 0 40%, 50% 0, 100% 40%, 70% 40%, 70% 100%, 30% 100%);
+}
+
+
+@media only screen and (max-width: 800px){
+    .column_first, .column_second{
+        width: 100%;
+    }
+    #ProjAres{
+        overflow-wrap: break-word;
+    }
+}

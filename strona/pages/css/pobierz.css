@@ -1,0 +1,52 @@
+.download-button{
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.download-button:hover{
+    color: white;
+    background-color: gray;
+}
+.windows{
+    background-color: #0078D7;
+}
+.android{
+    background-color: #3DDC84;
+}
+.linux{
+    background-color: #000000;
+}
+.macos{
+    background-color: #A7A9AC;
+}
+.ios{
+    background-color: #000000;
+}
+#downloadBox{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+}
+
+table, th, td {
+    border:1px solid #a7a9ac;
+}
+
+@media only screen and (max-width: 800px){
+    table{
+        width: 100%;
+    }
+}
